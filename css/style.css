@@ -1,0 +1,11 @@
+.jumbotron {
+    background-image: url("../media/img/bg-intro.jpg");
+    background-color: #17234E;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    filter: brightness(20%);
+}
