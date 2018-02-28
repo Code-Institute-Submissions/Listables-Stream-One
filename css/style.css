@@ -1,5 +1,6 @@
+/* Homepage Styling */
 .jumbotron {
-    background-image: url("../media/img/bg-intro.jpg");
+    background-image: url("../media/img/bg-intro-2.png");
     background-color: #17234E;
     margin-bottom: 0;
     background-repeat: no-repeat;
@@ -7,5 +8,104 @@
     -webkit-background-size: cover;
     background-size: cover;
     height: 500px;
-    filter: brightness(20%);
+    border-radius: 0;
+    text-align: center;
+}
+
+.jumbotron p {
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron img {
+    height: 100px;
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
+.centerme {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#featureArticle img {
+    height: 200px;
+    width: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-color: black;
+
+}
+
+#featureArticle {
+    width: 100%;
+}
+
+#featureArticle p {
+    margin-bottom: 20px;
+}
+
+#featureArticle h2 {
+    margin-left: 15px;
+    color: black;
+}
+
+#featureArticle h4 {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#featureArticle p {
+    color: black;
+}
+
+.blogpos {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.blogpos h2 {
+    color: black;
+}
+
+.blogposts img {
+    float: left;
+    margin-right: 10px;
+}
+
+#bloggingPost a{
+    color: #009687;
+}
+
+#bloggingPost img {
+    width: 100%;
+}
+
+#footerStyle {
+    background-color: #78C2AD;
+}
+
+.fa-facebook {
+    color: black;
+}
+
+.fa-twitter {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+#footerStyle h6 {
+    color: black;
+}
+
+.navbar-brand {
+    color: black !important;
 }
