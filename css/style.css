@@ -86,6 +86,8 @@
     width: 100%;
 }
 
+/* Footer styling */
+
 #footerStyle {
     background-color: #78C2AD;
 }
@@ -108,4 +110,25 @@
 
 .navbar-brand {
     color: black !important;
+}
+
+/* Services Page */
+
+.pricesBox {
+    flex-wrap: nowrap;
+}
+
+.card-margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-header {
+    background-color: #283D3B;
+    color: #E5E5E5;
+    text-align: center;
+}
+
+.card-body button {
+    text-align: center;
 }
