@@ -132,3 +132,30 @@
 .card-body {
     text-align: center;
 }
+
+/* Blog Post */
+
+.articleHeader {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.articleHeader h1{
+    color: black;
+    text-decoration: underline;
+}
+
+.articleBody img{
+    height: 250px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.articleBody p{
+    color: black;
+}
+
+#blogline {
+    border-color: black;
+}
