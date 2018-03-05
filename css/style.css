@@ -159,3 +159,32 @@
 #blogline {
     border-color: black;
 }
+
+/* Contact Us */
+
+#contactform input{
+    border-color: #78C2AD;
+}
+
+#contactform textarea {
+    border-color: #78C2AD;
+}
+
+.testingborder {
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border-color: #78C2AD;
+    border-width: thin;
+    background-color: #BCE0D6;
+}
+
+#contactform button {
+    background-color: #C2788C;
+    border-color: #C2788C;
+}
+
+#contactform label {
+    color: black;
+}
