@@ -1,4 +1,5 @@
 /* Homepage Styling */
+
 .jumbotron {
     background-image: url("../media/img/bg-intro-2.png");
     background-color: #17234E;
@@ -26,9 +27,9 @@
 }
 
 .centerme {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #featureArticle img {
@@ -78,7 +79,7 @@
     margin-right: 10px;
 }
 
-#bloggingPost a{
+#bloggingPost a {
     color: #009687;
 }
 
@@ -141,18 +142,18 @@
     margin-bottom: 10px;
 }
 
-.articleHeader h1{
+.articleHeader h1 {
     color: black;
     text-decoration: underline;
 }
 
-.articleBody img{
+.articleBody img {
     height: 250px;
     width: auto;
     margin-right: 10px;
 }
 
-.articleBody p{
+.articleBody p {
     color: black;
 }
 
@@ -162,7 +163,7 @@
 
 /* Contact Us */
 
-#contactform input{
+#contactform input {
     border-color: #78C2AD;
 }
 
@@ -187,4 +188,62 @@
 
 #contactform label {
     color: black;
+}
+
+/* About Us Section */
+
+.aboutSection h1 {
+    text-align: center;
+}
+
+.aboutSection p {
+    text-align: center;
+}
+
+.aboutTeam h1 {
+    text-align: center;
+}
+
+.size {
+    height: 200px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.aboutTeam h2 {
+    color: black;
+}
+
+.card {
+    border-color: #C2788C !Important;
+}
+
+.aboutHeader {
+    margin-top: 10px;
+}
+
+.aboutBrand h1{
+    text-align: center;
+}
+
+.aboutBrand h3{
+    text-align: center;
+}
+
+.aboutBrand {
+    margin-bottom: 20px;
+}
+
+.aboutBrand h2 {
+    text-align: center;
+    color: #ff3232;
+}
+
+#borderSetup {
+    border-style: solid;
+    border-top: 5px;
+    border-bottom: 5px;
 }
