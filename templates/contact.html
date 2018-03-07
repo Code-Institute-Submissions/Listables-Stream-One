@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
     <title>Listables Entertainment</title>
 </head>
 
@@ -51,22 +49,26 @@
                     <div class="form-group row">
                         <div class="col-sm-6">
                             <label for="inputName">Name</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="E.g. John Doe">
+                            <input type="text" class="form-control" id="inputName" placeholder="E.g. John Doe" onkeyup='validateName()'>
+                            <span class='error-message' id='nameError'></span>
                         </div>
                         <div class="col-sm-6">
                             <label for="inputEmail">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="E.g. example@hello.com">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="E.g. example@hello.com" onkeyup='validateEmail()'>
+                            <span class='error-message' id='emailError'></span>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-12">
                             <div class="form-group">
                                 <label for="inputMessage">Message</label>
-                                <textarea class="form-control" id="inputMessage" rows="3" placeholder="Write your message here..."></textarea>
+                                <textarea class="form-control" id="inputMessage" rows="3" placeholder="Write your message here..." onkeyup='validateMessage()'></textarea>
+                                <span class='error-message' id='messageError'></span>
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-warning px-4 float-right">Send Message!</button>
+                    <button onclick='return validateForm()' type="button" class="btn btn-warning px-4 float-right">Send Message!</button>
+                    <span class='error-message' id='submitError'></span>
                 </form>
             </div>
         </div>
@@ -102,6 +104,10 @@
     </footer>
     <!--/.Footer-->
 
+    <!-- JS Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
 </body>
 
 </html>
