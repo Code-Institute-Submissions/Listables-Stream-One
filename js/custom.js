@@ -47,36 +47,31 @@ function validateMessage() {
         producePrompt(left + ' more characters required', 'messageError', 'red');
         return false;
     }
+    else {
+        document.getElementById('messageError').style.display = 'none';
+    }
 
 }
 
 function validateForm() {
-    if (!validateName() || !validateEmail() || !validateMessage()) {
-        jsShow('submitError');
-        producePrompt('Please fix errors to submit.', 'submitError', 'red');
-        setTimeout(function () {
-            jsHide('submitError');
-        }, 2000);
-    } else {
-
+    if (name.length == 0 || email.length == 0 || message.length == 0) {
+        producePrompt('Please enter a Name and Surname', 'nameError', 'red');
+        producePrompt('Please enter an Email', 'emailError', 'red');
+        producePrompt('Message can not be empty', 'messageError', 'red');
+    } else if (name.length == 0 || message.length == 0) {
+        producePrompt('Please enter a Name and Surname', 'nameError', 'red');
+        producePrompt('Message can not be empty', 'messageError', 'red');
+    } else if (email.length == 0 || message.length == 0) {
+        producePrompt('Please enter an Email', 'emailError', 'red');
+        producePrompt('Message can not be empty', 'messageError', 'red');
+    } else if (name.length == 0 || email.length == 0) {
+        producePrompt('Please enter a Name and Surname', 'nameError', 'red');
+        producePrompt('Please enter an Email', 'emailError', 'red');
     }
 }
-
-function jsShow(id) {
-    document.getElementById(id).style.display = 'block';
-}
-
-function jsHide(id) {
-    document.getElementById(id).style.display = 'none';
-}
-
-
-
 
 function producePrompt(message, promptLocation, color) {
 
     document.getElementById(promptLocation).innerHTML = message;
     document.getElementById(promptLocation).style.color = color;
-
-
 }
