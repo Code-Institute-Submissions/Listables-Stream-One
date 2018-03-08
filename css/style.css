@@ -163,14 +163,6 @@
 
 /* Contact Us */
 
-#contactform input {
-    border-color: #78C2AD;
-}
-
-#contactform textarea {
-    border-color: #78C2AD;
-}
-
 .testingborder {
     border-style: solid;
     padding-top: 15px;
@@ -225,11 +217,11 @@
     margin-top: 10px;
 }
 
-.aboutBrand h1{
+.aboutBrand h1 {
     text-align: center;
 }
 
-.aboutBrand h3{
+.aboutBrand h3 {
     text-align: center;
 }
 
@@ -246,4 +238,24 @@
     border-style: solid;
     border-top: 5px;
     border-bottom: 5px;
+}
+
+input.invalid,
+textarea.invalid {
+    border: 2px solid red;
+}
+
+input.valid,
+textarea.valid {
+    border: 2px solid green;
+}
+
+.error_show {
+    color: red;
+    margin-left: 10px;
+}
+
+.error {
+    display: none;
+    margin-left: 10px;
 }

@@ -45,30 +45,31 @@
     <div class="container blogpos">
         <div class="row testingborder">
             <div class="col-md-10 mx-auto">
-                <form id="contactform">
+                <form id="contactform" method="post" action="">
                     <div class="form-group row">
                         <div class="col-sm-6">
                             <label for="inputName">Name</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="E.g. John Doe" onkeyup='validateName()'>
-                            <span class='error-message' id='nameError'></span>
+                            <input type="text" class="form-control" id="inputName" placeholder="E.g. John Doe" name="Name">
+                            <span class='error'>Please enter your Name</span>
                         </div>
                         <div class="col-sm-6">
                             <label for="inputEmail">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="E.g. example@hello.com" onkeyup='validateEmail()'>
-                            <span class='error-message' id='emailError'></span>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="E.g. example@hello.com" name="Email">
+                            <span class='error'>Please enter a valid Email</span>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-12">
                             <div class="form-group">
                                 <label for="inputMessage">Message</label>
-                                <textarea class="form-control" id="inputMessage" rows="3" placeholder="Write your message here..." onkeyup='validateMessage()'></textarea>
-                                <span class='error-message' id='messageError'></span>
+                                <textarea class="form-control" id="inputMessage" rows="3" placeholder="Write your message here..." name="Message"></textarea>
+                                <span class='error'>Your Message can't be empty.</span>
                             </div>
                         </div>
                     </div>
-                    <button onclick='return validateForm()' type="button" class="btn btn-warning px-4 float-right">Send Message!</button>
-                    <span class='error-message' id='submitError'></span>
+                    <div id="inputSubmit">
+                        <button type="submit" class="btn btn-warning px-4 float-right">Send Message!</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -107,7 +108,7 @@
     <!-- JS Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/custom.js"></script>
+    <script src="../js/custom_jquery.js"></script>
 </body>
 
 </html>

@@ -67,6 +67,8 @@ function validateForm() {
     } else if (name.length == 0 || email.length == 0) {
         producePrompt('Please enter a Name and Surname', 'nameError', 'red');
         producePrompt('Please enter an Email', 'emailError', 'red');
+    } else {
+        document.getElementById('alertTest').style.display = 'block';
     }
 }
 
