@@ -134,6 +134,10 @@
     text-align: center;
 }
 
+.blogposMobile {
+    display: none;
+}
+
 /* Blog Post */
 
 .articleHeader {
@@ -258,4 +262,70 @@ textarea.valid {
 .error {
     display: none;
     margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+    #borderSetup {
+        border-style: solid;
+        border-right: 5px;
+        border-left: 5px;
+        margin-right: 25px;
+        margin-left: 25px;
+        border-width: thin;
+    }
+    .blogposMobile {
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        display: block;
+    }
+
+    .blogposMobile h2 {
+        color: black;
+    }
+
+    .blogpos {
+        display: none;
+    }
+
+    /* Style the buttons that are used to open and close the accordion panel */
+    .accordion {
+        background-color: #283D3B;
+        color: #E5E5E5;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        display: block;
+    }
+    
+    .panelShow {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+
+    .accordion:after {
+        content: '\02795';
+        /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #E5E5E5;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\2796";
+        /* Unicode character for "minus" sign (-) */
+    }
+
+
 }
