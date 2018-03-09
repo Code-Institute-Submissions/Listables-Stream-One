@@ -75,9 +75,10 @@ $(document).ready(function () {
         var accordion = $(this);
         var accordionContent = accordion.next('.panelShow');
         
+        
         accordion.toggleClass('active');
         accordionContent.toggleClass('panel');
-        accordionContent.slideToggle(250);
+        accordionContent.slideToggle(500);
     });
 
 

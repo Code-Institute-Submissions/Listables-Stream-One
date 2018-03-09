@@ -138,6 +138,16 @@
     display: none;
 }
 
+.blogposService {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.blogposService h2 {
+    color: black;
+}
+
 /* Blog Post */
 
 .articleHeader {
@@ -278,13 +288,14 @@ textarea.valid {
         margin-bottom: 50px;
         margin-top: 50px;
         display: block;
+        text-align: center;
     }
 
     .blogposMobile h2 {
         color: black;
     }
 
-    .blogpos {
+    .blogposService {
         display: none;
     }
 
@@ -299,6 +310,7 @@ textarea.valid {
         border: none;
         outline: none;
         transition: 0.4s;
+        margin-top: 10px;
     }
 
     /* Style the accordion panel. Note: hidden by default */
@@ -311,6 +323,21 @@ textarea.valid {
         background-color: white;
         display: none;
         overflow: hidden;
+        border-color: #C2788C;
+        border-style: solid;
+        border-width: thin;
+    }
+    
+    .panelShow h4{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        color: black;
+    }
+    
+    .panelShow button {
+        margin-bottom: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 
     .accordion:after {
