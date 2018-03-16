@@ -52,7 +52,7 @@ $(document).ready(function () {
             }
         }
         if (error_free) {
-            alert('No errors: Form will be submitted');
+            alert('Thanks for contacting us! We will get back to you as soon as we can!');
             location.reload();
         }
     });
@@ -80,7 +80,5 @@ $(document).ready(function () {
         accordionContent.toggleClass('panel');
         accordionContent.slideToggle(500);
     });
-
-
 
 });

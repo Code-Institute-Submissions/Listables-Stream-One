@@ -2,7 +2,6 @@
 
 .jumbotron {
     background-image: url("../media/img/bg-intro-2.png");
-    background-color: #17234E;
     margin-bottom: 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,6 +23,10 @@
 
 .jumbotron h1 {
     color: white;
+}
+
+.zoomIn {
+    animation-duration: 3s;
 }
 
 .centerme {
@@ -146,6 +149,8 @@
 
 .blogposService h2 {
     color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 15px;
 }
 
 /* Blog Post */
@@ -293,6 +298,8 @@ textarea.valid {
 
     .blogposMobile h2 {
         color: black;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
     }
 
     .blogposService {
@@ -317,7 +324,7 @@ textarea.valid {
     .panel {
         display: block;
     }
-    
+
     .panelShow {
         padding: 0 18px;
         background-color: white;
@@ -327,13 +334,13 @@ textarea.valid {
         border-style: solid;
         border-width: thin;
     }
-    
-    .panelShow h4{
+
+    .panelShow h4 {
         margin-top: 15px;
         margin-bottom: 10px;
         color: black;
     }
-    
+
     .panelShow button {
         margin-bottom: 10px;
         margin-left: 25%;
@@ -352,6 +359,22 @@ textarea.valid {
     .active:after {
         content: "\2796";
         /* Unicode character for "minus" sign (-) */
+    }
+
+    .articleBody img {
+        margin-bottom: 10px;
+    }
+
+    .testingborder {
+        border-style: solid;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+        border-color: #78C2AD;
+        border-width: thin;
+        background-color: #BCE0D6;
+        margin-right: 2px;
+        margin-left: 2px;
     }
 
 
