@@ -29,15 +29,15 @@ The "Services" section of the website uses a simple accordion JQuery item that a
 
 Testing was peformed in two ways:
 
-	1. The basic validation was tested using "QUnit". QUnit is an easy to use JQuery testing library. It helps to ensure that the JQuery code works correctly by automatically testing the functions.
+1. The basic validation was tested using "QUnit". QUnit is an easy to use JQuery testing library. It helps to ensure that the JQuery code works correctly by automatically testing the functions.
 
-	2. The website was also tested using "Chrome Developer tools". Chrome allowed me to see the website from various mobile and desktop screens, which helped with the styling of the website. Through using this tool, I could ensure that the visual aspects of the site are readible and are not buggy.
+2. The website was also tested using "Chrome Developer tools". Chrome allowed me to see the website from various mobile and desktop screens, which helped with the styling of the website. Through using this tool, I could ensure that the visual aspects of the site are readible and are not buggy.
 
 ## Outside Influences
 
 Outside influences for the project were:
 
-	1. The basic website outline was influenced by parts of the course content and other media related websites I was able to find online. These websites helped me choose the design of the site and what pages the site should include.
+1. The basic website outline was influenced by parts of the course content and other media related websites I was able to find online. These websites helped me choose the design of the site and what pages the site should include.
 	
-	2. I used some text from https://blog.kissmetrics.com/facebook-marketing/ for the blog part of the website. No copyright infringement is intended and the content of the article itself belongs to the author on the website linked.
+2. I used some text from https://blog.kissmetrics.com/facebook-marketing/ for the blog part of the website. No copyright infringement is intended and the content of the article itself belongs to the author on the website linked.
 	
