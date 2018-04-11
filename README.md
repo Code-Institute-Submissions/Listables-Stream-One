@@ -33,6 +33,16 @@ Testing was peformed in two ways:
 
 2. The website was also tested using "Chrome Developer tools". Chrome allowed me to see the website from various mobile and desktop screens, which helped with the styling of the website. Through using this tool, I could ensure that the visual aspects of the site are readible and are not buggy.
 
+## Deployment
+
+The website was deployed using Github Pages. Github pages allows for a live preview of your website right from the repository. It's easy to setup Github Pages:
+
+1. Go to the "Repository Settings" section of your Project Repository
+2. Github pages allows you to decide which source to use as deployment source. I choose to deploy the master branch directly.
+3. Once that is setup, you simply push the most recent changes of the project to the Source branch and the live preview is available in seconds.
+
+There isn't a difference between the developer and live version of the Github Page, because I have it setup to work directly with the Master Branch. I found this to be the most convenient for me, because it gives me an easy preview of the final project the user sees.
+
 ## Outside Influences
 
 Outside influences for the project were:
