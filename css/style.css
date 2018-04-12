@@ -1,5 +1,7 @@
-/* Homepage Styling */
+/*The Homepage styling*/
 
+/*The Jumbotron styling here ensures that the logo, Header and paragraph in it are positioned correctly.
+It also adds the background to the jumbotron. */
 .jumbotron {
     background-image: url("../media/img/bg-intro-2.png");
     margin-bottom: 0;
@@ -25,16 +27,20 @@
     color: white;
 }
 
+/*The zoomIn styling makes the logo react the same way the animate.css does with the text.*/
 .zoomIn {
     animation-duration: 3s;
 }
 
+/*centerme centers the items in the Jumbotron to make sure they are always centered.*/
 .centerme {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
+/*The featureArticle css styling makes sure the articles on the homepage are styled correctly and
+that they don't interfere with one another regardless of the size of the screen.*/
 #featureArticle img {
     height: 200px;
     width: auto;
@@ -67,6 +73,9 @@
     color: black;
 }
 
+/*blogpos is the general styling for the body part of most pages.
+It's used to create a uniform experience over the whole site, rather than
+having random styling across the site.*/
 .blogpos {
     width: 100%;
     margin-bottom: 50px;
@@ -91,6 +100,9 @@
 }
 
 /* Footer styling */
+
+/*Footer styling adds the colour to the social media icons and styles the footer of the site.
+The styling is used to set the colour scheme of the site footer.*/
 
 #footerStyle {
     background-color: #78C2AD;
@@ -117,6 +129,9 @@
 }
 
 /* Services Page */
+
+/*The services page has a service section. This section needs to be seperated and styled to
+set the services next to one another rather than below one another. The CSS styling achieves this.*/
 
 .pricesBox {
     flex-wrap: nowrap;
@@ -155,6 +170,9 @@
 
 /* Blog Post */
 
+/*The blog css styles the Blog page. The images need to not touch the text around them and
+css achieves this.*/
+
 .articleHeader {
     text-align: center;
     font-weight: bold;
@@ -182,6 +200,9 @@
 
 /* Contact Us */
 
+/*The Contact Us styling helps create the general form. It styles the form aspects, but also
+includes the classes that are used for the visual validation process.*/
+
 .testingborder {
     border-style: solid;
     padding-top: 15px;
@@ -202,6 +223,9 @@
 }
 
 /* About Us Section */
+
+/*The about us styling helps create the visual aspects of the about us section. It creates the flow of the page and
+makes the team member section look more appealing.*/
 
 .aboutSection h1 {
     text-align: center;
@@ -278,6 +302,9 @@ textarea.valid {
     display: none;
     margin-left: 10px;
 }
+
+/*The media query is used to change the styling for smaller screens.
+This is needed because with smaller screens there are different requirements than with largers screens.*/
 
 @media (max-width: 767px) {
     #borderSetup {
